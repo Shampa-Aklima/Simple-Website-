@@ -38,13 +38,20 @@ header ul li a {
     line-height: 23px;
     font-weight: 400;
 }
-
+.container{
+    position:relative;
+}
 .hero-area {
     /* margin-top: 108px;
     margin-left: 120px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url("balls-decoration.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+
 }
 
 header .logo h2 {
@@ -109,11 +116,19 @@ header .logo h2 {
     position: relative;
 }
 
-.image-area img {
-    width: 520px;
-    height: 516px;
+.divider{
+    position: absolute;
+    bottom: -217px;
+    left: 0;
 }
-
+.other{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    bottom: 30px;
+    right:50px;
+}
+}
 footer p {
     font-size: 14px;
     line-height: 22px;
